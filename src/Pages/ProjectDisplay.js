@@ -1,4 +1,3 @@
-import GitHub from '@mui/icons-material/GitHub';
 import React from 'react'
 import { useParams } from 'react-router-dom';
 import { ProjectList } from '../helpers/ProjectList';
@@ -15,9 +14,6 @@ export default function ProjectDisplay() {
       <p>
         <h4><b>Skills Used:</b></h4> {project.skills}
       </p>
-      <div className="project-repo">
-        <h4>Code Repo</h4><GitHub />
-      </div>
     </div>
   )
 }

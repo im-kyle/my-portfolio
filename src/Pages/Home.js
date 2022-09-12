@@ -5,7 +5,7 @@ import GitHub from '@mui/icons-material/GitHub';
 import '../Styles/Home.css';
 
 export const OpenLinkedIn = () => window.open("https://www.linkedin.com/in/kyle-horne-511222239/")
-export const OpenEmail = () => window.open("mailto:kyle.horne@outlook.com")
+export const OpenEmail = () => window.open("mailto:kylehorne@outlook.com")
 export const OpenGithub = () => window.open("https://github.com/im-kyle")
 
 export default function Home() {
